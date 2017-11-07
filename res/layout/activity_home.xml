@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="大蒜是個寶，常吃身體好。一日兩蘋果，毛病繞道過 。一日一棗，長生不老。核桃山中寶，補腎又健腦" />
+          
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/Btn_Home_Bloodpressure"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/bloodpressure" />
+
+        <ImageButton
+            android:id="@+id/Btn_Home_Bloodglucose"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/bloodglucose" />
+
+        <ImageButton
+            android:id="@+id/Btn_Home_BodyWeight"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/bodyweight" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/Btn_Home_Diet"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/diet"
+            android:onClick="diet" />
+
+        <ImageButton
+            android:id="@+id/Btn_Home_Sport"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/sport"
+            android:onClick="sport" />
+
+        <ImageButton
+            android:id="@+id/Btn_Home_HealthTip"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/healthtips" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/Btn_Home_Notice"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/friend" />
+
+        <ImageButton
+            android:id="@+id/Btn_Home_Record"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/records" />
+
+        <ImageButton
+            android:id="@+id/Btn_Home_Setting"
+            android:layout_width="92dp"
+            android:layout_height="115dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/setting" />
+    </LinearLayout>
+
+</LinearLayout>

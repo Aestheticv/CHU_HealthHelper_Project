@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.csie.chu.edu.healthhelper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".Bloodpressure"
+            android:label="@string/title_activity_bloodpressure" >
+        </activity>
+        <activity
+            android:name=".Bloodpressure_add_edit"
+            android:label="@string/title_activity_bloodpressure_add_edit" >
+        </activity>
+        <activity
+            android:name=".Bloodglucose"
+            android:label="@string/title_activity_bloodglucose" >
+        </activity>
+        <activity
+            android:name=".Bloodglucose_add_edit"
+            android:label="@string/title_activity_bloodglucose_add_edit" >
+        </activity>
+        <activity
+            android:name=".Bodyweight"
+            android:label="@string/title_activity_bodyweight" >
+        </activity>
+        <activity
+            android:name=".Bodyweight_add_edit"
+            android:label="@string/title_activity_bodyweight_add_edit" >
+        </activity>
+        <activity
+            android:name=".Diet"
+            android:label="@string/title_activity_diet" >
+        </activity>
+        <activity
+            android:name=".Diet_add_edit"
+            android:label="@string/title_activity_diet_add_edit" >
+        </activity>
+        <activity
+            android:name=".Sport"
+            android:label="@string/title_activity_sport" >
+        </activity>
+        <activity
+            android:name=".Sport_add_edit"
+            android:label="@string/title_activity_sport_add_edit" >
+        </activity>
+        <activity
+            android:name=".Account_Edit"
+            android:label="@string/title_activity_account__edit" >
+        </activity>
+        <activity
+            android:name=".HealthTips"
+            android:label="@string/title_activity_health_tips" >
+        </activity>
+        <activity
+            android:name=".HealthTip_Meet"
+            android:label="@string/title_activity_health_tip__meet" >
+        </activity>
+        <activity
+            android:name=".HealthTip_Seafood"
+            android:label="@string/title_activity_health_tip__seafood" >
+        </activity>
+        <activity
+            android:name=".HealthTip_Veg"
+            android:label="@string/title_activity_health_tip__veg" >
+        </activity>
+        <activity
+            android:name=".HealthTip_Drink"
+            android:label="@string/title_activity_health_tip__drink" >
+        </activity>
+        <activity
+            android:name=".Bluetooth"
+            android:label="@string/title_activity_bluetooth" >
+        </activity>
+        <activity
+            android:name=".Bluetooth1"
+            android:label="@string/title_activity_bluetooth1" >
+        </activity>
+    </application>
+
+</manifest>

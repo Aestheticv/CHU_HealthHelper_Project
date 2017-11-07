@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tw.csie.chu.edu.healthhelper.HealthTips" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Btn_HT_Meet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="肉類篇" />
+
+        <Button
+            android:id="@+id/Btn_HT_Seafood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="海鮮篇" />
+
+        <Button
+            android:id="@+id/Btn_HT_Veg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="植物篇" />
+
+        <Button
+            android:id="@+id/Btn_HT_Drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="飲品篇" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Btn_HT_Return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true"
+        android:text="返回" />
+
+</RelativeLayout>

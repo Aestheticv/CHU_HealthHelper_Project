@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">健康小幫手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">註冊</string>
+    <string name="title_activity_home">健康小幫手</string>
+    <string name="title_activity_bloodpressure">血壓管理</string>
+    <string name="title_activity_bloodpressure_add_edit">血壓管理</string>
+    <string name="title_activity_bloodglucose">血糖管理</string>
+    <string name="title_activity_bloodglucose_add_edit">血糖管理</string>
+    <string name="title_activity_bodyweight">體重管理</string>
+    <string name="title_activity_bodyweight_add_edit">體重管理</string>
+    <string name="title_activity_diet">飲食管理</string>
+    <string name="title_activity_diet_add_edit">飲食管理</string>
+    <string name="title_activity_sport">運動管理</string>
+    <string name="title_activity_sport_add_edit">運動管理</string>
+    <string name="title_activity_account__edit">帳號管理</string>
+    <string name="title_activity_health_tips">健康小叮嚀</string>
+    <string name="title_activity_health_tip__meet">肉類篇</string>
+    <string name="title_activity_health_tip__seafood">海鮮篇</string>
+    <string name="title_activity_health_tip__veg">蔬果篇</string>
+    <string name="title_activity_health_tip__drink">飲品篇</string>
+    <string name="title_activity_bluetooth">藍芽</string>
+    <string name="title_activity_bluetooth1">Bluetooth1</string>
+
+</resources>
